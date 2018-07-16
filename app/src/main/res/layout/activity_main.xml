@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+
+    >
+
+
+
+    <Button
+        android:layout_width="45dp"
+        android:layout_height="47dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/logo"
+        android:background="@drawable/logo"
+        android:onClick="Logo"
+       />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/login_button"
+        android:background="@null"
+        android:hint="@string/login"
+        android:textColorHint="#fff"
+        android:textSize="25dp"
+        android:onClick="Login"
+        android:paddingTop="10dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"/>
+
+<LinearLayout
+android:paddingTop="100dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@+id/login_button"
+   >
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:id="@+id/spinner_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+
+
+        />
+
+
+
+    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+        android:paddingTop="20dp"
+        android:id="@+id/spinner_seriesSearch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        />
+
+
+
+</LinearLayout>
+</RelativeLayout>

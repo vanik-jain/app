@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vapps.uvpa.LoginActivity"
+    android:background="#fff"
+    android:orientation="vertical"
+
+
+     >
+
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+
+        >
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="320dp"
+            android:background="@drawable/bg"
+            android:padding="20dp"
+            android:orientation="vertical"
+
+            >
+
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                >
+
+
+
+
+                <Button
+
+                    android:layout_width="45dp"
+                    android:layout_height="47dp"
+                    android:background="@drawable/menu"
+                    android:layout_alignParentLeft="true"
+
+                    />
+
+
+                <Button
+
+                    android:layout_width="45dp"
+                    android:layout_height="47dp"
+                    android:background="@drawable/logo"
+                    android:layout_alignParentRight="true"
+
+                    />
+
+            </RelativeLayout><!--Menu-->
+
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+
+
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="LOGIN"
+                    android:textStyle="bold"
+                    android:textSize="24dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#fff"
+
+                    />
+
+
+
+                <EditText
+
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:hint="username"
+                    android:gravity="center"
+                    android:background="@drawable/input_round"
+                    android:padding="8dp"
+                    android:textColorHint="#626262"
+                    android:layout_marginTop="10dp"
+
+                    />
+
+
+                <EditText
+
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:hint="password"
+                    android:gravity="center"
+                    android:background="@drawable/input_round"
+                    android:padding="8dp"
+                    android:inputType="textPassword"
+                    android:textColorHint="#626262"
+                    android:layout_marginTop="15dp"
+
+                    />
+
+            <!--    <Button
+                    android:layout_width="90dp"
+                    android:layout_height="40dp"
+                    android:hint="Go !"
+                    android:textSize="22dp"
+                    android:textColorHint="#fff"
+                    android:background="@drawable/go_button"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/Payment"
+                    android:onClick="Payment"/>
+
+                    -->
+
+            </LinearLayout>
+
+
+
+        </LinearLayout><!--Menu and login-->
+
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            >
+
+
+
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/roundbtn"
+                android:layout_marginTop="290dp"
+                android:onClick="Payment"
+
+                />
+
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout><!--Top content-->
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingTop="45dp">
+
+
+
+
+
+        <Button
+
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Login with Google"
+            android:background="#fff"
+            android:textColorHint="#272728"
+            android:textSize="16dp"
+            android:layout_marginTop="15dp"
+            android:drawableStart="@drawable/search"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+
+            />
+
+
+
+        <Button
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Login with facebook"
+            android:background="#3b5999"
+            android:textColorHint="#fff"
+            android:textSize="16dp"
+            android:layout_marginTop="15dp"
+            android:drawableStart="@drawable/fb"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+          />
+
+
+
+
+        <Button
+
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:hint="@string/sign_up"
+            android:background="@null"
+            android:textColorHint="#656565"
+            android:textSize="16dp"
+            android:layout_marginTop="15dp"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        >
+
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="ABOUT"
+            android:textColorHint="#656565"
+            android:background="@null"
+
+            />
+
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="CONTACT"
+            android:textColorHint="#656565"
+            android:background="@null"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
