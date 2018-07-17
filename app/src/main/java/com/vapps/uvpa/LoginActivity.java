@@ -166,7 +166,10 @@ Button Payment;
 
         }
 
-
+    public void signup(View view){
+        startActivity(new Intent(LoginActivity.this,SignUp.class));
+        finish();
+    }
 
     }
 
