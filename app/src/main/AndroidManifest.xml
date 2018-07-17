@@ -47,7 +47,8 @@
             android:value="@string/google_maps_key" />
 
         <activity android:name=".Payment_details" />
-        <activity android:name=".g_signin"></activity>
+        <activity android:name=".g_signin" />
+        <activity android:name=".SignUp"></activity>
     </application>
 
 </manifest>
